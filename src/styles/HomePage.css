@@ -1,0 +1,61 @@
+.homePage {
+  position: static;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.homeMain {
+  width: 100vw;
+  position: relative;
+}
+
+#homebg {
+  width: 100vw;
+  height: auto;
+}
+
+.featured {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+} 
+
+.featured>h1 {
+  font-size: 2rem;
+  margin-top: 3rem;
+  font-weight: 500;
+}
+
+.homeMain div {
+  position: absolute;
+  top: 400px;
+  right: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.homeMain div p {
+  color: black;
+  font-size: 2rem;
+  text-align-last: right;
+}
+
+#shopBtn {
+  margin-top: 1rem;
+  padding: .5rem 1.5rem;
+  border-radius: 2rem;
+  border: solid 2px black;
+  background-color: transparent;
+  color: black;
+}
+
+#shopBtn Link {
+  font-size: 1.25rem;
+}
+
+#shopBtn:hover {
+  background-color: lightgrey;
+}
