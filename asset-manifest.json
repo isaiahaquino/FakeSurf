@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FakeSurf/static/css/main.c918c5e9.css",
-    "main.js": "/FakeSurf/static/js/main.99ab8c93.js",
+    "main.js": "/FakeSurf/static/js/main.ba83e389.js",
     "static/media/home.jpg": "/FakeSurf/static/media/home.177d08f17ffbd96e1508.jpg",
     "static/media/pyzel_wildcat.png": "/FakeSurf/static/media/pyzel_wildcat.b67fd32d4b0ae04bd1cd.png",
     "static/media/pyzel_mini-ghost-squash.png": "/FakeSurf/static/media/pyzel_mini-ghost-squash.1fa5ba316adde4f92e25.png",
@@ -14,10 +14,10 @@
     "static/media/pyzel_shadow.jpeg": "/FakeSurf/static/media/pyzel_shadow.ef7f734037cd2eba2473.jpeg",
     "index.html": "/FakeSurf/index.html",
     "main.c918c5e9.css.map": "/FakeSurf/static/css/main.c918c5e9.css.map",
-    "main.99ab8c93.js.map": "/FakeSurf/static/js/main.99ab8c93.js.map"
+    "main.ba83e389.js.map": "/FakeSurf/static/js/main.ba83e389.js.map"
   },
   "entrypoints": [
     "static/css/main.c918c5e9.css",
-    "static/js/main.99ab8c93.js"
+    "static/js/main.ba83e389.js"
   ]
 }
