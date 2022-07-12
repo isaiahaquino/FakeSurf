@@ -44,21 +44,21 @@ function App() {
         />
 
         <Routes>
-          <Route exact path='/' element={
+          <Route exact path='/FakeSurf/' element={
             <HomePage
             cartItems={cartItemCount}
             addItemToCart={addItemToCart}
             />
           }/> 
-          <Route exact path='/about' element={
+          <Route exact path='/FakeSurf/about' element={
             <AboutPage />
           }/>
-          <Route exact path='/catalog/*' element={
+          <Route exact path='/FakeSurf/catalog/*' element={
             <CatalogPage 
               addItemToCart={addItemToCart}
             />
           }/>
-          <Route exact path='/cart' element={
+          <Route exact path='/FakeSurf/cart' element={
             <CartPage 
             cartItemCount={cartItemCount}
             cartItems={cartItems}

@@ -7,22 +7,22 @@ function Header(props) {
 
   return (
     <header>
-      <Link to='/'>FakeSurf</Link>
+      <Link to='/FakeSurf/'>FakeSurf</Link>
       <div className='searchBar'>
         <img src={search} alt=''></img>
         <input type='text' placeholder='Search...'></input>
       </div>
       <nav>
         <div className='nav about'>
-          <Link to='/about'>About</Link>
+          <Link to='/FakeSurf/about'>About</Link>
         </div>
         <div className='nav shop'>
-          <Link to='/catalog/surfboards'>Shop</Link>
+          <Link to='/FakeSurf/catalog/surfboards'>Shop</Link>
         </div>
         <div className='nav cart'>
           <img src={cart} alt=''></img>
           <p>{props.cartItemCount}</p>
-          <Link to='/cart'>Cart</Link>
+          <Link to='/FakeSurf/cart'>Cart</Link>
         </div>
       </nav>
     </header>
