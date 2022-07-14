@@ -3,18 +3,18 @@ header {
   align-items: center;
   justify-content: space-between;
   border-bottom: solid 1px lightgrey;
+  width: 100vw;
 }
 
 header>a {
   font-weight: 400;
   font-size: 1.5rem;
   border-right: solid 1px lightgray;
-  padding: .75rem 4rem;
+  padding: .75rem 1rem;
 }
 
 .searchBar {
-  margin-left: 20px;
-  margin-right: auto;
+  display: none;
 }
 
 img {
@@ -33,30 +33,29 @@ input:focus {
   outline: none;
 }
 
-header nav, .searchBar, header nav div {
+header nav, header nav div {
   display: flex;
   align-items: center;
 }
 
 .nav {
   border-left: solid 1px lightgrey;
-  padding: .8rem 30px;
+  padding: .8rem 10px;
 }
 
 .about, .shop {
   border-left: solid 1px lightgrey;
-  padding: 1rem 30px;
+  padding: 1rem 10px;
 }
 
 .cart {
-  gap: 5px;
   position: relative;
 }
 
-.cart p {
+.cart p:nth-child(2) {
   position: absolute;
   font-size: .75rem;
-  left: 40px;
+  left: 20px;
   top: 7px;
   background-color: rgb(254, 122, 122);
   color: white;
@@ -64,7 +63,63 @@ header nav, .searchBar, header nav div {
   padding: 2px 5px;
 }
 
+.cart p:nth-child(3) {
+  display: none;
+}
+
 a {
   font-size: 1rem;
   text-decoration: none;
 }
+
+@media screen and (min-width:700px) {
+
+  header>a {
+    padding: .75rem 4rem;
+  }
+  
+  .searchBar {
+    margin-left: 20px;
+    margin-right: auto;
+  }
+  
+  header nav, header nav div, .cart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .nav {
+    padding: .8rem 30px;
+  }
+  
+  .about, .shop {
+    padding: 1rem 30px;
+  }
+  
+  .cart {
+    gap: 5px;
+    width: 4rem;
+  }
+  
+  .cart p:nth-child(2) {
+    left: 40px;
+  }
+
+  .cart p:nth-child(3) {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    left: 4rem;
+  }
+  
+}
+
+@media screen and (min-width:1024px) {
+
+  .searchBar {
+    display: flex;
+  }
+
+}
+

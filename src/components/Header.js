@@ -20,9 +20,10 @@ function Header(props) {
           <Link to='/FakeSurf/catalog/surfboards'>Shop</Link>
         </div>
         <div className='nav cart'>
+          <Link to='/FakeSurf/cart'>
           <img src={cart} alt=''></img>
           <p>{props.cartItemCount}</p>
-          <Link to='/FakeSurf/cart'>Cart</Link>
+          <p>Cart</p></Link>
         </div>
       </nav>
     </header>

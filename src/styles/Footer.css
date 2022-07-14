@@ -86,3 +86,11 @@ footer div {
   height: 1px;
   background-color: darkgrey;
 }
+
+@media screen and (min-width:700px) {
+
+}
+
+@media screen and (min-width:1024px) {
+
+}
